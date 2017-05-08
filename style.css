@@ -1,0 +1,53 @@
+div.body
+{
+	text-color:grey;
+	margin:0px;
+	text-align:left;
+}
+
+div.scrollmenu {
+    background-color: grey;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: grey;
+}
+
+
+div#fixedfooter {
+position:fixed;
+bottom:0px;
+left:0px;
+width:100%;
+color:#CCC;
+background:#333;
+padding:8px;
+}
+
+<style>
+.parallax {
+    
+    background-image: url("/home/aisselnew2/Shruti/pic_mountain.jpg");
+
+    
+    min-height: 500px; 
+
+   
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+
